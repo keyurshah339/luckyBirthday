@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Lucky, Birthday, , Supminn">  
+    <meta name="description" content="Lucky birthday app">
+    <meta name="author" content="">  
+    <meta name="Copyright" content="">
+    <link rel="icon" href="" type="image/jpg" sizes="16x16">
+    <link rel="stylesheet" href="style/styles.css">
+    <title>Lucky Birthday</title>
+</head>
+
+<body>
+    <section class="content">
+    
+        <div class="content-logic">
+            <h1>Is your birthday lucky?</h1>
+            <form>
+                <div class="form-input">
+                    <span class="form-field">Date of Birth:</span>
+                    <input type="date" id="date-dob" required />
+                </div>
+                <div class="form-input">
+                    <span class="form-field">Favorite number:</span>
+                    <input type="number" id="num-luck" required min="0" placeholder="Lucky number" />
+                </div>
+                <div class="btns">
+                    <button id="btn-check" type="button">Check now!</button>
+                    <button id="btn-reset" type="reset"><img src="image/reset.png" width="20"></button>
+                </div>
+            </form>
+            <h3 id="txt-result"></h3>
+        </div>
+    </section>
+    <div class="data-privacy">
+        <h2>Our Privacy Policy</h2>
+        <p>We believe privacy is a fundamental human right. Kindly note that we are <b>not storing</b> your personal data through this web application. </p>
+    </div>
+    <b class="close">x</b>
+    <footer>
+        <section>
+            <a href="https://keyur-developer.netlify.app/" target="_blank"><img class="social-media" src="image/user.svg"
+                    width="30" alt="Portfolio"></a>
+            <a href="https://github.com/keyurshah339" target="_blank"><img class="social-media" src="image/github.svg"
+                    width="30" alt="Github"></a>
+            </section>
+        
+        <button id="policy">Privacy Policy</button>
+    </footer>
+    <script src="script/app.js" type="text/javascript"></script>
+</body>
+
+</html>
